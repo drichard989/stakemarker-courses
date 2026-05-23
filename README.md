@@ -12,14 +12,27 @@ filtered, field-reduced subset containing only:
 Coordinates, contact details, architect, yardage, and other fields from the
 source dataset have been removed.
 
+## Current dataset
+
+| | |
+|---|---|
+| **Courses** | 383 |
+| **Version** | 2026-05-23 |
+| **Pending (initial build)** | 14991 |
+
+A course is included only when the source API returns a complete, valid
+18-hole scorecard for it. Roughly half of the upstream entries have
+incomplete data and are excluded; this dataset is rebuilt incrementally
+and re-fetches courses whose `updated_at` changes upstream.
+
 ## Files
 
 | File | Description |
 |------|-------------|
 | `courses.json` | Array of course records: `{ id, name, city, state, source, pars[18], hcps[18] }` |
-| `courses-meta.json` | `{ version, count }` — version is the UTC sync date |
+| `courses-meta.json` | `{ version, count, total, pending }` — version is the UTC sync date |
 
-These files are synced automatically from the source dataset; do not edit by hand.
+These files are synced automatically; do not edit by hand.
 
 ## License & Attribution
 
