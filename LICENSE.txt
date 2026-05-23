@@ -1,0 +1,20 @@
+This database is made available under the Open Database License (ODbL) v1.0.
+
+  https://opendatacommons.org/licenses/odbl/1-0/
+
+It is a derivative database produced from OpenGolfAPI
+(https://opengolfapi.org/), which is itself made available under the ODbL.
+
+Attribution
+-----------
+Contains information from OpenGolfAPI, which is made available under the
+Open Database License (ODbL).
+
+Share-Alike
+-----------
+This derivative database is published under the ODbL. Any further public
+derivative databases must also be released under the ODbL, with this
+attribution preserved.
+
+NOTE: This file states the licensing terms. For full legal compliance, paste
+the complete canonical ODbL 1.0 text (from the URL above) below this notice.
