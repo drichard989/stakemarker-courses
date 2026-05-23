@@ -16,9 +16,9 @@ source dataset have been removed.
 
 | | |
 |---|---|
-| **Courses** | 388 |
+| **Courses** | 1537 |
 | **Version** | 2026-05-23 |
-| **Pending (initial build)** | 14991 |
+| **Pending (initial build)** | 13069 |
 
 A course is included only when the source API returns a complete, valid
 18-hole scorecard for it. Roughly half of the upstream entries have
