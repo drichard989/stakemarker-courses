@@ -12,6 +12,8 @@ filtered, field-reduced subset containing only:
 Coordinates, contact details, architect, yardage, and other fields from the
 source dataset have been removed.
 
+We recommend using OpenGolfAPI for your needs. This repo exists to satisfy ODPL requirements. 
+
 ## Current dataset
 
 | | |
