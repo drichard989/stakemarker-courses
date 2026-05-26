@@ -12,15 +12,13 @@ filtered, field-reduced subset containing only:
 Coordinates, contact details, architect, yardage, and other fields from the
 source dataset have been removed.
 
-We recommend using OpenGolfAPI for your needs. This repo exists to satisfy ODPL requirements. 
-
 ## Current dataset
 
 | | |
 |---|---|
-| **Courses** | 7246 |
-| **Version** | 2026-05-25 |
-| **Pending (initial build)** | 4441 |
+| **Courses** | 9459 |
+| **Version** | 2026-05-26 |
+| **Pending (initial build)** | 1167 |
 
 A course is included only when the source API returns a complete, valid
 18-hole scorecard for it. Roughly half of the upstream entries have
